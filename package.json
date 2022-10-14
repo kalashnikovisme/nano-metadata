@@ -1,0 +1,9 @@
+{
+  "name": "nano-metadata",
+  "description": "Get video duration in browser",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:kalashnikovisme/nano-metadata",
+  "author": "Pavel Kalashnikov <kalashnikovisme@gmail.com>",
+  "license": "MIT"
+}
