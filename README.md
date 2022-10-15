@@ -29,6 +29,13 @@ change(e) {
 }
 ```
 
+# Features
+
+| | Video  | Audio |
+| ------------- | ------------- | ------------- |
+| Duration  | ✅ | ❌ |
+| *Another features?* | | |
+
 # Contribute
 
 1. Clone repo `git clone git@github.com:kalashnikovisme/nano-metadata`
