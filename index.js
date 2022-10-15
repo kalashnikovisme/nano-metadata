@@ -1,6 +1,4 @@
-import videoDuration from './lib/video-duration'
-
-export const video = { duration: videoDuration }
+import video from './lib/video'
 
 const nanoMetadata = {
   video,
