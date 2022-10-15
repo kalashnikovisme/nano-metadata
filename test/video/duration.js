@@ -1,5 +1,5 @@
 import test from 'ava'
-import videoDuration from '../../lib/video-duration.js'
+import videoDuration from '../../lib/video/duration.js'
 import { JSDOM } from 'jsdom'
 import fetch from 'node-fetch'
 import File from 'file-class'
