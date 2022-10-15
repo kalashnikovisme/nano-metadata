@@ -3,13 +3,18 @@
   "description": "Get video duration in browser",
   "version": "0.1.0",
   "main": "index.js",
+  "type": "module",
   "repository": "git@github.com:kalashnikovisme/nano-metadata",
   "author": "Pavel Kalashnikov <kalashnikovisme@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
   "dependencies": {
     "eslint": "^7.32.0 || ^8.2.0"
   },
   "devDependencies": {
+    "ava": "^4.3.3",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2"
   }
