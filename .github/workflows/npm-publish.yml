@@ -4,8 +4,9 @@
 name: Node.js Package
 
 on:
-  branches:
-    - develop
+  push:
+    branches:
+      - develop
   # release:
   #   types: [created]
 
