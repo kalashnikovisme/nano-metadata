@@ -42,3 +42,11 @@ change(e) {
 2. Run `yarn`
 3. To run tests `make test`
 4. To run linter `make linter`
+
+## Why do tests fail?
+
+This package uses `onloadedmetadata` event to store video duration. We use [js-dom](https://github.com/jsdom/jsdom) for web implementation in the tests. Looks like it does not support this event for now.
+
+### Solutions
+
+We will rewrite tests with chrome headless and selenium soon
