@@ -1,5 +1,7 @@
-# nano-metadata
+# nano-metadata [![Linter](https://github.com/kalashnikovisme/nano-metadata/actions/workflows/linter.yml/badge.svg?branch=main)](https://github.com/kalashnikovisme/nano-metadata/actions/workflows/linter.yml) [![Test](https://github.com/kalashnikovisme/nano-metadata/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/kalashnikovisme/nano-metadata/actions/workflows/test.yml)
 Get duration of video file in browser
+
+[Why do tests fail?](https://github.com/kalashnikovisme/nano-metadata#why-do-tests-fail)
 
 # Install
 
