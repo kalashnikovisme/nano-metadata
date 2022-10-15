@@ -24,7 +24,7 @@ change(e) {
   const file = e.target.files[0]
   
   video.duration(file).then((duration) => {
-    console.log(duration) # will show you video duration in seconds
+    console.log(duration) // will show you video duration in seconds
   })
 }
 ```
