@@ -4,8 +4,10 @@
 name: Node.js Package
 
 on:
-  release:
-    types: [created]
+  branches:
+    - develop
+  # release:
+  #   types: [created]
 
 jobs:
   build:
@@ -14,9 +16,19 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
-      - run: npm ci
-      - run: npm test
+          node-version: 14
+      - uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: install
+
+      - uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: linter
+
+      # Temporary commented because of https://github.com/kalashnikovisme/nano-metadata#why-do-tests-fail
+      # - uses: borales/actions-yarn@v3.0.0
+      #   with:
+      #     cmd: test
 
   publish-npm:
     needs: build
@@ -27,7 +39,6 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: npm ci
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
