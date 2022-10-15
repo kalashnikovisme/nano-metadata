@@ -34,7 +34,7 @@ change(e) {
 | | Video  | Audio |
 | ------------- | ------------- | ------------- |
 | Duration  | ✅ | ❌ |
-| *Another features?* | | |
+| *other features?* | | |
 
 # Contribute
 
