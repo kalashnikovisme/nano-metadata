@@ -44,8 +44,7 @@ change(e) {
 
 1. Clone repo `git clone git@github.com:kalashnikovisme/nano-metadata`
 2. Run `yarn`
-3. To run tests `make test`
-4. To run linter `make linter`
+3. To run linter `make linter`
 
 ## Why do tests fail?
 
