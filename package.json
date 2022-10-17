@@ -11,11 +11,9 @@
     "test": "ava",
     "linter": "eslint index.js lib/"
   },
-  "dependencies": {
-    "eslint": "^7.32.0 || ^8.2.0"
-  },
   "devDependencies": {
     "ava": "^4.3.3",
+    "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2",
     "file-class": "^0.1.3",
