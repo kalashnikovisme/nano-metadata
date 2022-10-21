@@ -42,9 +42,14 @@ change(e) {
 
 # Contribute
 
+## Option 1
 1. Clone repo `git clone git@github.com:kalashnikovisme/nano-metadata`
 2. Run `yarn`
 3. To run linter `make linter`
+
+## Option 2 (for [Purple Magic](https://github.com/purple-magic) contributors)
+
+Just run Codespace
 
 ## Why do tests fail?
 
