@@ -22,12 +22,12 @@ yarn add nano-metadata
 ## Video duration
 
 ```javascript
-import { video } from 'nano-metadata'
+import nanoMetadata from 'nano-metadata'
 
 change(e) {
   const file = e.target.files[0]
   
-  video.duration(file).then((duration) => {
+  nanoMetadata.video.duration(file).then((duration) => {
     console.log(duration) // will show you video duration in seconds
   })
 }
