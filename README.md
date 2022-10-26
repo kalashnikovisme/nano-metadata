@@ -22,12 +22,12 @@ yarn add nano-metadata
 ## Video duration
 
 ```javascript
-import { video } from 'nano-metadata'
+import nanoMetadata from 'nano-metadata'
 
 change(e) {
   const file = e.target.files[0]
   
-  video.duration(file).then((duration) => {
+  nanoMetadata.video.duration(file).then((duration) => {
     console.log(duration) // will show you video duration in seconds
   })
 }
@@ -42,9 +42,14 @@ change(e) {
 
 # Contribute
 
+## Option 1
 1. Clone repo `git clone git@github.com:kalashnikovisme/nano-metadata`
 2. Run `yarn`
 3. To run linter `make linter`
+
+## Option 2 (for [Purple Magic](https://github.com/purple-magic) contributors)
+
+Just run Codespace
 
 ## Why do tests fail?
 
