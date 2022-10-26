@@ -1,1 +1,2 @@
-export { video } from './lib/video'
+import video from './lib/video'
+export { video }
