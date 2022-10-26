@@ -1,7 +1,1 @@
-import video from './lib/video'
-
-const nanoMetadata = {
-  video,
-}
-
-export default nanoMetadata
+export { video } from './lib/video'
