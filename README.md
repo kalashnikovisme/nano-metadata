@@ -47,7 +47,7 @@ change(e) {
 2. Run `yarn`
 3. To run linter `make linter`
 
-## Option 2 (for [Purple Magic](https://github.com/purple-magic) contributors)
+## Option 2
 
 Just run Codespace
 
